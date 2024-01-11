@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-1 {
+  background-color: #eade37;
+  display: inline-block;
+  height: 100vh;
+  width: 25vw;
+}
+
+.course-container {
+  box-sizing: border-box;
+  margin: 2rem;
+  height: 21rem;
+  width: 23rem;
+}
+.course-container .course {
+  height: 2.5rem;
+  width: 77%;
+  margin: 2rem;
+}
+.course-container .course p {
+  display: inline-block;
+  background-color: white;
+  height: 100%;
+  width: 90%;
+  text-align: start;
+  font-size: 1.2rem;
+}
+.course-container .course p span {
+  display: inline-block;
+  padding: 9px;
+  color: #80007E;
+  font-family: Georgia, serif;
+}
+
+.course-container .course:nth-child(n) {
+  background-color: black;
+}
+
+.container-1 .course #html,
+.container-1 .course #css,
+.container-1 .course #js,
+.container-1 .course #php {
+  margin-top: -21px;
+}
+
+.container-2 {
+  background-color: #eade37;
+  display: inline-block;
+  height: 100vh;
+  width: 75vw;
+  margin-top: 0px;
+  position: absolute;
+}
+.container-2 main p {
+  margin-top: 31px;
+  font-weight: 500;
+  color: #80007E;
+  font-size: 1.1rem;
+  font-family: auto;
+}
+.container-2 footer {
+  margin-top: 50px;
+  font-size: 16px;
+  color: #80007E;
+  font-style: italic;
+  font-weight: 550;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.content-container {
+  margin: 1.2rem 0rem;
+}
+
+header {
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #80007E;
+}
+
+.break-line {
+  margin-top: 5rem;
+  border: 1px dotted #80007E;
+}/*# sourceMappingURL=style-1.css.map */
